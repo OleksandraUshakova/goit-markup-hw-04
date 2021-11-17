@@ -77,6 +77,11 @@ color:var(--primary-title-color);
     color: var(--accent-color);
 }
 
+.headericons-items:hover,
+.headericons-items:focus{
+    fill:currentColor;
+}
+
 .logo{
     display: flex;
 font-family: Raleway;
@@ -122,10 +127,10 @@ margin-left: 50px;
     align-content: center;
 }
 
-.headericons-items:hover,
+/* .headericons-items:hover,
 .headericons-items:focus{
     fill:var(--accent-color) 
-}
+} */
 
 .nav-contacts{
     display: flex;
@@ -201,26 +206,13 @@ margin-bottom: 200px;
     display: flex ;
     list-style: none;
     padding: 0;
-} 
-
-.listicons-items{
-display: flex;
-width: 270px;
+    width: 270px;
 height: 120px;
 background: #F5F4FA;
-padding: 25px 100px;
 margin-bottom: 30px;
+align-items: center;
+justify-content: center;
 border-radius: 4px;
-} 
-
-
-.listicons-items::before{
-    content: "";
-    display: block;
-    background-color: var(--primary-text-color);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;  
 }
 
 .hero-link{
@@ -276,7 +268,7 @@ letter-spacing: 0.03em;
     padding-bottom: 90px;
 }
 .clients-title{
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .photo-list{
@@ -365,7 +357,7 @@ margin-right: 0;
 background-color: var(--accent-color);
 }
 .team-social-icon{
-    fill:var(--primary-text-color);
+    fill: rgba(175, 177, 184, 1);
 }
 
 .team-social-link:hover .team-social-icon,
