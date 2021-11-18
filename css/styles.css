@@ -121,16 +121,11 @@ margin-left: 50px;
 }
 
 .headericons-items{
-    fill: #757575;
     margin-right: 10px;
     justify-content: center;
     align-content: center;
+    fill:currentColor;
 }
-
-/* .headericons-items:hover,
-.headericons-items:focus{
-    fill:var(--accent-color) 
-} */
 
 .nav-contacts{
     display: flex;
@@ -287,6 +282,7 @@ letter-spacing: 0.03em;
 .team-section{
 padding-top: 97px;
 padding-bottom: 90px;
+background-color:  #F5F4FA;
 }
 
 .team-title{
@@ -417,7 +413,7 @@ background-color: var(--accent-color);
 }
 
 .clientsicons-link{
-    fill:var(--primary-text-color);
+    fill: rgba(175, 177, 184, 1);
 }
 
 .clientsicons-link:hover .clientsicons-items,
